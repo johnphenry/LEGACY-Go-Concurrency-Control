@@ -1,6 +1,5 @@
 /*
-New strategy to implement at some point:
-I'm thinking every routine gets it's own channel instead.
+Every goroutine can additionally get its own channel, and we wait on all of them.
 */
 package main
 import(
